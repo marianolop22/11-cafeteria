@@ -4,7 +4,6 @@ www
 platforms
 plugins
 dist
-src/img
 ios/App/public/
 .history/
 .vscode/
