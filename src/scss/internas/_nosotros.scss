@@ -1,0 +1,32 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.contenido-nosotros {
+
+    @include m.tablet {
+        @include m.grid(2, 3.5rem);
+        align-items: center;
+    }
+
+    .imagen {
+        margin: 0 auto;
+        box-shadow: 10px 10px 15px .1px rgb(0 0 0 / .30);
+        transform: rotate(-5deg);
+        padding: 2rem;
+        // border: 2rem solid v.$blanco;
+    }
+}
+
+
+.nosotros-texto {
+
+    .quote {
+        margin: 0;
+        padding: 1rem;
+        font-size: 2rem;
+        padding-left: 1rem;
+        border-left: .5rem solid v.$primario;
+    }
+    
+
+}

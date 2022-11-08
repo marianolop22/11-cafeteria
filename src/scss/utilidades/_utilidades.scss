@@ -1,0 +1,39 @@
+@use 'base/variables' as v;
+
+.text-center {
+    text-align: center;
+}
+
+.bg-white {
+    background-color: v.$blanco;
+}
+
+.margin-negativo-10 {
+    margin-top: -10rem;
+    position: relative;
+}
+
+.pb-0 {
+    padding-bottom: 0;
+}
+
+.btn {
+    background-color: v.$primario;
+    display: block;
+    color: v.$blanco;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1.5rem;
+    transition: background-color .3s ease-out ;
+    text-align: center;
+    border: none;
+    width: 100%;
+    transition: background-color .3s;
+    
+    &:hover {
+        cursor: pointer;
+        background-color: #8C4930;
+
+    }
+    
+}
